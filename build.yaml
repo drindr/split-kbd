@@ -41,3 +41,5 @@ include:
     shield: sweep_right led_indicator
     artifact-name: sweep_right_debug
     snippet: zmk-usb-logging
+  - board: nice_nano_v2
+    shield: settings_reset
