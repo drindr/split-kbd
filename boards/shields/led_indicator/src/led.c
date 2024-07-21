@@ -58,7 +58,7 @@ static void output_blink(void) {
 #else
   if (zmk_split_bt_peripheral_is_connected()) {
     LOG_INF("Peripheral connected, blinking once");
-    blink.duration_ms = CONFIG_LED_INDICATOR_BLINK_MS * 3;
+    blink.duration_ms = CONFIG_LED_INDICATOR_BLINK_MS * 10;
     blink.count = 1;
   } else {
     LOG_INF("Peripheral not connected, fast blinking");

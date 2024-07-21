@@ -21,13 +21,23 @@ include:
   - board: seeeduino_xiao_ble
     shield: sweep_central_dongle dongle_display
     artifact-name: sweep_central_dongle
-  - board: seeeduino_xiao_ble
-    shield: sweep_central_dongle dongle_display
-    artifact-name: sweep_central_dongle_debug
-    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: sweep_left led_indicator
     artifact-name: sweep_left
   - board: nice_nano_v2
     shield: sweep_right led_indicator
     artifact-name: sweep_right
+
+  # debug
+  - board: seeeduino_xiao_ble
+    shield: sweep_central_dongle dongle_display
+    artifact-name: sweep_central_dongle_debug
+    snippet: zmk-usb-logging
+  - board: nice_nano_v2
+    shield: sweep_left led_indicator
+    artifact-name: sweep_left_debug
+    snippet: zmk-usb-logging
+  - board: nice_nano_v2
+    shield: sweep_right led_indicator
+    artifact-name: sweep_right_debug
+    snippet: zmk-usb-logging
