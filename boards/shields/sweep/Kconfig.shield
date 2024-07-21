@@ -8,7 +8,7 @@ config SHIELD_SWEEP_CENTRAL_LEFT
     def_bool $(shields_list_contains,sweep_central_left)
 
 config SHIELD_SWEEP_PERIPHERAL_LEFT
-    def_bool $(shields_list_contains,sweep_peripheral_left)
+    def_bool $(shields_list_contains,sweep_left)
 
 config SHIELD_SWEEP_PERIPHERAL_RIGHT
-    def_bool $(shields_list_contains,sweep_peripheral_right)
+    def_bool $(shields_list_contains,sweep_right)
