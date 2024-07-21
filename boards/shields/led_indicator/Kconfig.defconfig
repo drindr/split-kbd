@@ -9,6 +9,7 @@ config LED_INDICATOR_BLINK_MS
 
 config LED_INDICATOR_INTERVAL_MS
     int "Minimum wait duration between two blinks in ms"
+    default 150
 
 config LED_INDICATOR_BATTERY_CRITICAL
     int "Critical battery lever percentage"
