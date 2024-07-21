@@ -1,0 +1,15 @@
+if SHIELD_LED_INDICATOR
+
+config LED
+    default y
+
+config LED_INDICATOR_BLINK_MS
+    int "Duration of blink in ms"
+    default 300
+
+config LED_INDICATOR_INTERVAL_MS
+    int "Minimum wait duration between two blinks in ms"
+
+config LED_INDICATOR_BATTERY_CRITICAL
+    int "Critical battery lever percentage"
+    default 7
