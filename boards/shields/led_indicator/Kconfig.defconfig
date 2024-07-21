@@ -13,3 +13,5 @@ config LED_INDICATOR_INTERVAL_MS
 config LED_INDICATOR_BATTERY_CRITICAL
     int "Critical battery lever percentage"
     default 7
+
+endif
